@@ -1,0 +1,36 @@
+
+
+Assignment 1.
+Use thread program to simulate distributed environment to find the sum of
+all the elements of a large array of integers.
+Step I: Create an array of 100 numbers and populate them randomly so that
+the array may contain duplicate entries also.
+Step II: Create multiple threads to find the sum of all the elements in the
+array. All the threads should work concurrently to find the sum, so use
+locking mechanism in the critical section.
+Step III: After initial checking increase the array size in steps to
+accommodate 1 billion integers and increase number of threads accordingly
+and start measuring the speed-up.
+Step IV : Finally represent all the speed-up results in tabular manner
+mentioning the array size and no. of threads used.
+
+
+Assignment 2
+Leader selection Algorithm
+
+
+Assignment 3
+Write a program which goes on taking integers as input. Write another program
+which prints the integers as soon as they are read by the first program. Both the
+programs run in an infinite loop. The programs should communicate using shared
+memory. Create the shared memory using mmap. Access the shared memory using
+open.
+
+
+Assignment 4
+Create a spanning tree from a given root 
+using Distributed Message Passing Algorithm.
+
+
+Assignment 5
+Write a program to implement Token based mutual exclusion principle.
